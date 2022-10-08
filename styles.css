@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+ 
+  
 
 textarea{
     width: 50%;
@@ -7,7 +9,7 @@ textarea{
     margin: 1 rem;
     padding: 1 rem;
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: auto;
    
    
@@ -18,13 +20,25 @@ textarea{
     text-align: center;
     background-color: #FFB319;
     padding:1rem;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 2rem;
     font-size: xx-large;
 }
 
 
+#btn-Translate{
 
+        background-color:#FFB200; 
+        border: none;
+        color:white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+      
+}
 
 
 
@@ -77,4 +91,8 @@ textarea{
     background-color: yellow;
     padding-top: 2rem;
 
+}
+.container{
+    justify-content: center;
+    align-items: center;
 }
