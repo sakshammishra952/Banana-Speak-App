@@ -76,6 +76,14 @@ textarea{
    margin-top: 3rem;
 }
 
+*{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
 #new{
     margin-left:43rem ;
     margin-top: 2rem;
@@ -97,9 +105,15 @@ textarea{
 #btn-translate{
     background-color: yellow;
     padding-top: 2rem;
-
+    display:block;
+    
 }
 .container{
+   margin:auto;
+}
+p{
+    text-align: center;
+    margin:auto;
     justify-content: center;
-    align-items: center;
+    
 }
